@@ -68,8 +68,8 @@ export function glyph(a2: number, v: boolean[]) {
     if (i == 2) {
       continue;
     }
-    v[10 + i] = v[5 + i] || v[15 + i];
-    v[i * 5 + 2] = v[i * 5 + 1] || v[i * 5 + 3];
+    v[10 + i] = v[5 + i] && v[15 + i];
+    v[i * 5 + 2] = v[i * 5 + 1] && v[i * 5 + 3];
   }
 }
 export function grid<T>(a: (val: boolean[]) => T): T {

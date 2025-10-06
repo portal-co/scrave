@@ -40,8 +40,8 @@ pub fn glyph(a: u8, v: &mut [bool; 25]) {
         if i == 2 {
             continue;
         }
-        v[10 + i] = v[5 + i] || v[15 + i];
-        v[(i * 5) + 2] = v[(i * 5) + 1] || v[(i * 5) + 3];
+        v[10 + i] = v[5 + i] && v[15 + i];
+        v[(i * 5) + 2] = v[(i * 5) + 1] && v[(i * 5) + 3];
     }
 }
 pub const SBOX: [u8; 256] = [
