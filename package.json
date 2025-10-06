@@ -6,6 +6,7 @@
   "license": "MPL-2.0",
   "description": "Make the most of super-small screens",
   "devDependencies": {
+    "parcel": "^2.16.0",
     "typescript": "^5.9.3",
     "zshy": "^0.4.3"
   }
