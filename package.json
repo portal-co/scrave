@@ -1,0 +1,12 @@
+{
+  "name": "@portal-solutions/scrave",
+  "workspaces": [
+    "packages/glyph"
+  ],
+  "license": "MPL-2.0",
+  "description": "Make the most of super-small screens",
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "zshy": "^0.4.3"
+  }
+}

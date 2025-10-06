@@ -1,0 +1,26 @@
+{
+  "name": "@portal-solutions/scrave-glyph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "zshy": "index.ts",
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.cts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.cts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[workspace]
+members = ["crates/scrave-glyph"]
+resolver = "3"
+
+[workspace.package]
+license = "MPL-2.0"
+description = "Make the most of super-small screens"
+
+[workspace.dependencies]
