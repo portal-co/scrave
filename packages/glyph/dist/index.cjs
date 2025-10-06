@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SBOX_INV = exports.SBOX = void 0;
 exports.glyph = glyph;
+exports.grid = grid;
 // prettier-ignore
 exports.SBOX = new Uint8Array([
     0x63, 0x7c, 0x77, 0x7b, 0xf2, 0x6b, 0x6f, 0xc5, 0x30, 0x01, 0x67, 0x2b, 0xfe, 0xd7, 0xab, 0x76,
@@ -75,4 +76,14 @@ function glyph(a2, v) {
         v[10 + i] = v[5 + i] || v[15 + i];
         v[i * 5 + 2] = v[i * 5 + 1] || v[i * 5 + 3];
     }
+}
+function grid(a) {
+    //prettier-ignore
+    return a([
+        false, false, false, false, false,
+        false, false, false, false, false,
+        false, false, false, false, false,
+        false, false, false, false, false,
+        false, false, false, false, false,
+    ]);
 }

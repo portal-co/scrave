@@ -72,3 +72,13 @@ export function glyph(a2: number, v: boolean[]) {
     v[i * 5 + 2] = v[i * 5 + 1] || v[i * 5 + 3];
   }
 }
+export function grid<T>(a: (val: boolean[]) => T): T {
+  //prettier-ignore
+  return a([
+        false,false,false,false,false,
+        false,false,false,false,false,
+        false,false,false,false,false,
+        false,false,false,false,false,
+        false,false,false,false,false,
+    ]);
+}
