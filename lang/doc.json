@@ -1,0 +1,23 @@
+{
+  "glyphs": {
+    "0x52": "<space>",
+    "0x53": "PROX",
+    "0x54": "DIST",
+    "0x55": "COP",
+    "0x56": {
+      "form": "{n:a} {n:b} 0x56",
+      "meaning": "{a}'s {b}"
+    },
+    "0x57": "DAT: to, into",
+    "0x58": "DEF",
+    "0x59": "2SG",
+    "0x5a": "1SG",
+    "0x5b": "1PL",
+    "0x5c": "IMP",
+    "0x5d": "LOC: in, on, within, at, from"
+  },
+  "grammar": {
+    "order": "SOV",
+    "adj_order": "NA"
+  }
+}
