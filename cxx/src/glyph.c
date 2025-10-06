@@ -29,6 +29,7 @@ void scrave_glyph(uint8_t a2, _Bool *v) {
       put(1, 1);
     }
     }
+#undef put
   }
   for (uint8_t i = 0; i < 5; i++) {
     if (i == 2) {
