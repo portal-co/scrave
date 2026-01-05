@@ -1,5 +1,6 @@
-target
-node_modules
+.DS_Store
 .parcel-cache
-images
 /dist
+images
+node_modules
+target
