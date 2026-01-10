@@ -1,13 +1,14 @@
-# @portal-solutions/scrave
+# scrave
 
 ## Description
-Make the most of super-small screens
+"Make the most of super-small screens". A workspace (`scrave`) focused on rendering for constrained displays (glyphs, images).
 
 ## Goals
-- [ ] Add project goals
+- [ ] Optimize rendering for small screens
+- [ ] Generate glyph images
 
 ## Progress
-- [ ] Initial setup
+- [ ] Workspace setup with glyph generator crates
 
 ---
 *AI assisted*
